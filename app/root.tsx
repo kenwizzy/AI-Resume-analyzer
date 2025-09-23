@@ -30,7 +30,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     init()
-  }, [init]);
+  }, [init]);//pass the Dependency array
   return (
     <html lang="en">
       <head>

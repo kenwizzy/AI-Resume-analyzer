@@ -3,8 +3,8 @@ import Navbar from "~/components/Navbar";
 import { resumes } from "~/constants";
 import ResumeCard from "~/components/ResumeCard";
 import { usePuterStore } from "~/lib/puter";
-import { useEffect } from "react";;
-import { useNavigate } from "react-router";
+import { useEffect,useState } from "react";
+import {Link, useNavigate } from "react-router";
 
 
 export function meta({}: Route.MetaArgs) {
