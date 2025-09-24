@@ -39,6 +39,7 @@ export default function Home() {
     loadResumes()
   }, []);
 
+
   return <main className="bg-[url('/images/bg-main.svg')] bg-cover">
     <Navbar />
 
